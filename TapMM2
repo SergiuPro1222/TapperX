@@ -1,7 +1,5 @@
--- Gui to Lua
--- Version: 3.2
-
--- Instances:
+--Made By Tapper.pub
+--Made By Tapper.pub
 
 local TapMM2 = Instance.new("ScreenGui")
 local Main = Instance.new("Frame")
