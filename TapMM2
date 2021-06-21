@@ -1,0 +1,146 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local TapMM2 = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local title = Instance.new("TextLabel")
+local credits = Instance.new("TextLabel")
+local Exlipse = Instance.new("TextButton")
+local Vynixu = Instance.new("TextButton")
+local Skin = Instance.new("TextButton")
+local Drifter = Instance.new("TextButton")
+local MM2 = Instance.new("TextButton")
+local JayHub = Instance.new("TextButton")
+local Close = Instance.new("TextButton")
+local Up = Instance.new("TextButton")
+
+--Properties:
+
+TapMM2.Name = "TapMM2"
+TapMM2.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = TapMM2
+Main.BackgroundColor3 = Color3.fromRGB(95, 95, 95)
+Main.Position = UDim2.new(0.401818216, 0, 0.432432383, 0)
+Main.Size = UDim2.new(0, 462, 0, 309)
+Main.Active = true
+Main.Draggable = true
+
+title.Name = "title"
+title.Parent = Main
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.Position = UDim2.new(0.00228313752, 0, 0, 0)
+title.Size = UDim2.new(0, 460, 0, 36)
+title.Font = Enum.Font.SciFi
+title.Text = "TapMM2"
+title.TextColor3 = Color3.fromRGB(0, 255, 255)
+title.TextSize = 23.000
+
+credits.Name = "credits"
+credits.Parent = Main
+credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+credits.BackgroundTransparency = 1.000
+credits.Position = UDim2.new(0.00228313752, 0, 0.873684168, 0)
+credits.Size = UDim2.new(0, 460, 0, 36)
+credits.Font = Enum.Font.Sarpanch
+credits.Text = "Made By Tapper.pub"
+credits.TextColor3 = Color3.fromRGB(0, 255, 255)
+credits.TextSize = 23.000
+credits.TextWrapped = true
+
+Exlipse.Name = "Exlipse"
+Exlipse.Parent = Main
+Exlipse.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+Exlipse.Position = UDim2.new(0.0756093264, 0, 0.252631575, 0)
+Exlipse.Size = UDim2.new(0, 155, 0, 37)
+Exlipse.Font = Enum.Font.SciFi
+Exlipse.Text = "EclipseMM2"
+Exlipse.TextColor3 = Color3.fromRGB(0, 0, 0)
+Exlipse.TextSize = 20.000
+Exlipse.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SergiuPro1222/sdadasdcacactexlipse/main/ecliposa", true))()
+end)
+
+Vynixu.Name = "Vynixu"
+Vynixu.Parent = Main
+Vynixu.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+Vynixu.Position = UDim2.new(0.0756093264, 0, 0.463157892, 0)
+Vynixu.Size = UDim2.new(0, 155, 0, 37)
+Vynixu.Font = Enum.Font.SciFi
+Vynixu.Text = "Vynixu"
+Vynixu.TextColor3 = Color3.fromRGB(0, 0, 0)
+Vynixu.TextSize = 20.000
+Vynixu.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SergiuPro1222/sdadasdcacactexlipse/main/Venixasta", true))()
+end)
+
+Skin.Name = "Skin"
+Skin.Parent = Main
+Skin.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+Skin.Position = UDim2.new(0.0756093264, 0, 0.673513889, 0)
+Skin.Size = UDim2.new(0, 155, 0, 37)
+Skin.Font = Enum.Font.SciFi
+Skin.Text = "SkinChanger"
+Skin.TextColor3 = Color3.fromRGB(0, 0, 0)
+Skin.TextSize = 20.000
+Skin.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SergiuPro1222/sdadasdcacactexlipse/main/SVSIDESPAWNCACATMM2", true))()
+end)
+
+Drifter.Name = "Drifter"
+Drifter.Parent = Main
+Drifter.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+Drifter.Position = UDim2.new(0.597254336, 0, 0.252631575, 0)
+Drifter.Size = UDim2.new(0, 155, 0, 37)
+Drifter.Font = Enum.Font.SciFi
+Drifter.Text = "Drifter's Gui"
+Drifter.TextColor3 = Color3.fromRGB(0, 0, 0)
+Drifter.TextSize = 20.000
+Drifter.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SergiuPro1222/sdadasdcacactexlipse/main/Drifterguiimm2", true))()
+end)
+
+MM2.Name = "MM2"
+MM2.Parent = Main
+MM2.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+MM2.Position = UDim2.new(0.597254336, 0, 0.463157892, 0)
+MM2.Size = UDim2.new(0, 155, 0, 37)
+MM2.Font = Enum.Font.SciFi
+MM2.Text = "MM2"
+MM2.TextColor3 = Color3.fromRGB(0, 0, 0)
+MM2.TextSize = 20.000
+MM2.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SergiuPro1222/sdadasdcacactexlipse/main/MM2script", true))()
+end)
+
+JayHub.Name = "JayHub"
+JayHub.Parent = Main
+JayHub.BackgroundColor3 = Color3.fromRGB(0, 255, 255)
+JayHub.Position = UDim2.new(0.597254336, 0, 0.673513889, 0)
+JayHub.Size = UDim2.new(0, 155, 0, 37)
+JayHub.Font = Enum.Font.SciFi
+JayHub.Text = "JayHub"
+JayHub.TextColor3 = Color3.fromRGB(0, 0, 0)
+JayHub.TextSize = 20.000
+JayHub.MouseButton1Down:connect(function()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/SergiuPro1222/sdadasdcacactexlipse/main/Jayhub21", true))()
+end)
+
+Close.Name = "Close"
+Close.Parent = Main
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.Position = UDim2.new(0.904761791, 0, 0, 0)
+Close.Size = UDim2.new(0, 44, 0, 36)
+Close.Font = Enum.Font.SciFi
+Close.Text = "X"
+Close.TextColor3 = Color3.fromRGB(255, 0, 0)
+Close.TextSize = 20.000
+Close.MouseButton1Down:connect(function()
+	Close.Visible = true
+	Main.Visible = false
+end)
